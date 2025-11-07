@@ -1,0 +1,17 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: white;
+    text-align: center;
+}
+img{
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+section{
+    background-color: lightgray;
+    border: 2px solid gray;
+    margin: 20px auto;
+    width: 15%;
+    border-radius: 10px;
+}
