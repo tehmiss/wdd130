@@ -1,51 +1,62 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
-    <link rel="stylesheet" href="../styles/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Describe your home page here using keywords like your name, the course, the purpose of the page.">
     <meta name="author" content="Thomas Strong">
     <title>Thomas Strong | WDD 130</title>
+    <link rel="stylesheet" href="../styles/styles.css">
 </head>
 
 <body>
-    <header></header>
     <header>
         <nav>
             <a href="#">Home</a>
             <a href="#">Rafting Website</a>
-            <a href="https://linkedin.com" target="_blank">Linkedin</a>
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
             <a href="https://facebook.com" target="_blank">Facebook</a>
         </nav>
     </header>
-    <main>
-        <h1>Thomas Strong | WDD 130</h1>
-        <img src="images/profile.jpg" alt="Profile picture of Thomas Strong" width="200">
-        <p>My name is Thomas Strong. I'm from Canada. I enjoy playing guitar and working with hardware.</p>
-        <ul class="box"><a href="https://www.churchofjesuschrist.org/temples/details/cardston-alberta-temple?lang=eng"
-                target="_blank">1. Cardston,
-                Alberta</a>
-            <a href="https://www.churchofjesuschrist.org/temples/details/toronto-ontario-temple?lang=eng"
-                target="_blank">2. Brampton,
-                Ontario</a>
-            <a href="https://www.churchofjesuschrist.org/temples/details/salt-lake-temple?lang=eng" target="_blank">3.
-                Salt Lake City,
-                Utah</a>
-        </ul>
-    </main>
-    <aside class="box">
-        <h2>The rockies in Canada</h2>
-        <img src="images/rockies.jpg" alt="The rockies in Canada" width="200">
-        <p>The national parks of Alberta, Canada, truly showcase the country’s beauty. Much of Alberta is made up of
-            prairies,
-            while other areas feature mountains, forests, and breathtaking scenery.</p>
-    </aside>
+
+    <div class="grid">
+        <main>
+            <h1>Thomas Strong | WDD 130</h1>
+            <img src="images/profile.jpg" alt="Profile picture of Thomas Strong" width="200">
+            <p>My name is Thomas Strong. I'm from Canada. I enjoy playing guitar and working with hardware.</p>
+
+            <ul class="box">
+                <li>
+                    <a href="https://www.churchofjesuschrist.org/temples/details/cardston-alberta-temple?lang=eng" target="_blank">
+                        Cardston, Alberta
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.churchofjesuschrist.org/temples/details/toronto-ontario-temple?lang=eng" target="_blank">
+                        Brampton, Ontario
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.churchofjesuschrist.org/temples/details/salt-lake-temple?lang=eng" target="_blank">
+                        Salt Lake City, Utah
+                    </a>
+                </li>
+            </ul>
+        </main>
+
+        <aside class="box">
+            <h2>The Rockies in Canada</h2>
+            <img src="images/rockies.jpg" alt="The Rockies in Canada" width="200">
+            <p>
+                The national parks of Alberta, Canada, truly showcase the country’s beauty. Much of Alberta is made up of
+                prairies, while other areas feature mountains, forests, and breathtaking scenery.
+            </p>
+        </aside>
+    </div>
+
     <footer>
         <p>&copy; 2025 | Thomas Strong | Alberta, Canada</p>
     </footer>
 </body>
-
 </html>
