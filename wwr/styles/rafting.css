@@ -171,3 +171,82 @@ footer {
 .footer-box{
   float: right;
 }
+
+/* contact SECTION */
+.contact {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-box img {
+width: 200px;
+height: auto;
+}
+
+.contact-box{
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  text-align: left;
+}
+
+.contact-text{
+  flex: 1;
+  text-align: left;
+}
+
+.con-button {
+    position: absolute;
+    top: 58%;
+    left: 60%;
+    transform: translateX(-50%);
+    background-color: #f3e0d9;
+    padding: 2px 100px;
+    color: #000000;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.con-button:hover {
+    background-color: #f3e0d9;
+}
+
+/* employees */
+.employees {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+}
+
+.employees h2 {
+margin-bottom: 20px;
+}
+
+.employees-box{
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  text-align: left;
+}
+
+.employees-text{
+  flex: 1;
+  text-align: left;
+}
+
+.img-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+}
